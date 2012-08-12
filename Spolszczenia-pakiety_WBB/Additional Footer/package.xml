@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<package name="pl.language.prefixes">
+<package name="pl.language.additional_footer">
   <packageinformation>
-    <packagename>Spolszczenie do pakietu Prefixes</packagename>
-    <packagedescription>Spolszczenie do Prefixes</packagedescription>
+    <packagename>Spolszczenie do pakietu Additional Footer</packagename>
+    <packagedescription>Spolszczenie do pakietu Additional Footer</packagedescription>
     <version>1.0.0</version>
-    <date>2012-08-10</date>
+    <date>2012-08-12</date>
 
    
     <plugin>com.woltlab.wbb</plugin>
@@ -20,10 +20,6 @@
     <requiredpackage minversion="1.1.1">com.woltlab.wcf</requiredpackage>
   </requiredpackages>
 
-  <excludedpackages>
-		<excludedpackage version="3.1.*">com.woltlab.wbb</excludedpackage>
-	</excludedpackages>
-  
   <optionalpackages />
   <instructions type="install" >
         <languages languagecode="pl">pl.xml</languages>
